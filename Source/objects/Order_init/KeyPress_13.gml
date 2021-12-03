@@ -12,7 +12,7 @@ if(global.selection == 1)
 			completed.image_yscale = 5;
 			global.Option1 = false;
 			//instance_destroy(selector);
-		
+			global.orderscompleted++;
 			//instance_destroy(orders);
 			//room_goto(Room3);
 		}
@@ -26,6 +26,7 @@ if(global.selection == 1)
 			global.Option1 = false;
 			//instance_destroy(orders);
 			//room_goto(Room3);
+			global.orderscompleted++;
 		
 		}
 		else if(global.ctype1 == 3 && global.ammount1 <= global.stored3)
@@ -38,6 +39,7 @@ if(global.selection == 1)
 			global.Option1 = false;
 			//instance_destroy(orders);
 			//room_goto(Room3);
+			global.orderscompleted++;
 		
 		}
 	}
@@ -52,6 +54,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option2 = false;
+			global.orderscompleted++;
 		
 		}
 		else if(global.ctype2 == 2 && global.ammount2 <= global.stored2)
@@ -62,6 +65,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option2 = false;
+			global.orderscompleted++;
 			
 		}
 		else if(global.ctype2 == 3 && global.ammount2 <= global.stored3)
@@ -72,6 +76,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option2 = false;
+			global.orderscompleted++;
 			
 		}
 	}	
@@ -86,6 +91,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option3 = false;
+			global.orderscompleted++;
 			
 		}
 		else if(global.ctype3 == 2 && global.ammount3 <= global.stored2)
@@ -96,6 +102,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option3 = false;
+			global.orderscompleted++;
 			
 		}
 		else if(global.ctype3 == 3 && global.ammount3 <= global.stored3)
@@ -106,6 +113,7 @@ if(global.selection == 1)
 			completed.image_xscale = 5;
 			completed.image_yscale = 5;
 			global.Option3 = false;
+			global.orderscompleted++;
 		
 		}
 	}
